@@ -25,6 +25,8 @@ const Home = () => {
     getPosts()
  },[])
 
+ console.log(posts)
+
   return (
     <>
     <NavBar />
